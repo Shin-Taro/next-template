@@ -3,9 +3,6 @@ import ress from "ress";
 
 export const reset = css`
   ${ress}
-  html {
-    font-size: 62.5%;
-  }
   * {
     box-sizing: border-box;
     font-family: inherit;
@@ -14,5 +11,8 @@ export const reset = css`
   }
   li {
     list-style: none;
+  }
+  html {
+    font-size: 62.5%;
   }
 `;

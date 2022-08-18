@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
+import { HomeTemplate } from "../components/templates/Home";
 
-const Home: NextPage = () => <div>Top page</div>;
+const Home: NextPage = () => <HomeTemplate />;
 
 export default Home;

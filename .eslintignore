@@ -1,0 +1,8 @@
+**/linter-settings/
+.eslintrc.js
+.hygen.js
+jest.config.js
+jest.polyfills.js
+stylelint.config.js
+next.config.js
+**/libs/bffApiClient

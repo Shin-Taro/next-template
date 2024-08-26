@@ -1,0 +1,3 @@
+echo "Running pre-push hook..."
+yarn check-code
+yarn test

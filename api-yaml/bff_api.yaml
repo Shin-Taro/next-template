@@ -1,0 +1,16 @@
+openapi: 3.0.0
+paths:
+  /sample/sample:
+    get:
+      operationId: SampleActionController_getSample
+      parameters: []
+      responses:
+        "200":
+          description: ""
+info:
+  title: BFF API
+  description: bff api
+  version: "0.1"
+  contact: {}
+tags: []
+servers: []

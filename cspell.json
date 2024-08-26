@@ -1,0 +1,35 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": [
+    "en",
+    "typescript",
+    "node",
+    "html",
+    "css",
+    "npm",
+    "fonts",
+    "filetypes",
+    "package",
+    "web",
+    "color",
+    "domain"
+  ],
+  "dictionaryDefinitions": [
+    {
+      // npm package names
+      "name": "package",
+      "path": "./linter-settings/cspell/package.txt"
+    },
+    {
+      // web related terms
+      "name": "web",
+      "path": "./linter-settings/cspell/web.txt"
+    },
+    {
+      // color codes
+      "name": "color",
+      "path": "./linter-settings/cspell/color.txt"
+    }
+  ]
+}
